@@ -1,0 +1,47 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<label style="font-size:25px; margin:1%;">Sport</label>
+	<div sclass="admin-form" style="padding-left:1%; margin-top:1%">
+		<div sclass="admin-form-wrapper">
+			<div>
+				<grid width="75%">
+					<rows>
+						<row>
+							<label>Judul</label>
+							<textbox placeholder="Judul" />
+						</row>
+
+						<row>
+							<label>Tanggal Tayang</label>
+							<datebox constraint="no past,no empty" />
+						</row>
+
+						<row>
+							<label>Gambar</label>
+							<vlayout>
+								<button
+									upload="true,maxsize=-1,multiple=true"
+									sclass="btn-attach mr-10"
+									onUpload="@command('uploadSportImg',upEvent = eventSport)" />
+								<label value="@load(vs.namaFile)" />
+							</vlayout>
+						</row>
+
+						<row>
+							<label>Isi Berita Sport</label>
+							<textbox rows="15" type="text"
+								placeholder="Isi Berita" width="100%" />
+						</row>
+
+						<row>
+							<label></label>
+							<button sclass="button button1" onClick="@command('saveSport')">
+								SAVE
+							</button>
+						</row>
+					</rows>
+				</grid>
+			</div>
+		</div>
+	</div>
+</zk>

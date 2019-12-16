@@ -1,0 +1,181 @@
+<?page title="Intranet || PT. Mandala Multifinance, Tbk." contentType="text/html;charset=UTF-8"?>
+<!-- <?init class="com.mandala.intranet.controller.LoginCheckerVmd"?> -->
+<?link rel="stylesheet" type="text/css" href="/css/login-style.css" ?>
+
+<zk>
+	<hlayout style="margin:1%;" apply="org.zkoss.bind.BindComposer"
+		sclass="sb"
+		viewModel="@id('bc') @init('com.mantabs.collection.master.area_assignment.viewmodel.BannerController')">
+		<div align="left" style="margin-top:15px; margin-left:65px">
+			<image src="/images/logo_mandala.png" width="100px"
+				height="50px" />
+		</div>
+
+		<toolbar popup="true" width="1000px" height="75px"
+			style="margin-left:70px; border: none; background: #c0392b">
+			<hlayout style="margin-top:15px;">
+
+				<div height="60px"
+					style="padding-top:10px; cursor:pointer"
+					popup="menuPopUp, after_start">
+					<label
+						style="margin-left:50px; color: white; font-size:15px">
+						Branch Directory
+					</label>
+				</div>
+				<space bar="true" height="30px" width="2px"
+					style="background: #eeeeee; margin-left:50px;" />
+				<div height="60px"
+					style="padding-top:10px; cursor:pointer"
+					popup="employeePopup, after_start"
+					onClick="@command('clearData')">
+					<label
+						style="margin-left:50px; color: white; font-size:15px">
+						Employee Directory
+					</label>
+				</div>
+				<space bar="true" spacing="50px" height="30px"
+					width="2px" style="background: #eeeeee; margin-left:50px" />
+				<div height="60px"
+					style="padding-top:10px; cursor:pointer"
+					popup="sopPopup, after_start">
+					<label
+						style="margin-left:50px; color: white; font-size:15px">
+						SOP Policy
+					</label>
+				</div>
+				<space bar="true" spacing="50px" height="30px"
+					width="2px" style="background: #eeeeee; margin-left:50px" />
+				<div style="padding-top:10px;">
+					<label
+						style="margin-left:50px; color: white; font-size:15px">
+						VOB
+					</label>
+				</div>
+				<space bar="true" spacing="50px" height="30px"
+					width="2px" style="background: #eeeeee; margin-left:50px" />
+
+				<div>
+					<button height="35px"
+						style="display:none; margin-left:125px; background:white; color: #c0392b; font-size:10px">
+						LOGIN
+					</button>
+
+					<button height="35px"
+						style="margin-left:100px; background:white; color: #c0392b; font-size:10px">
+						LOGOUT
+					</button>
+				</div>
+			</hlayout>
+		</toolbar>
+
+		<!-- POPUP BRANCH DIRECTORY -->
+		
+		<menupopup id="menuPopUp" top="0px" left="0px"
+			style="margin-top: 5px; display: block;
+					 	border: none; overflow:auto;"
+			children="@bind(bc.nodes) @template(empty each.children?'item':'menu')">
+
+			<template name="menu" var="menu">
+				<menu label="@bind(menu.name)"
+					style="padding-top:2px; padding-bottom:5px; font-size:small; font-weight:bold;"
+					image="/images/plus.png" width="325px">
+					<menupopup sclass="mymenupopup"
+						children="@bind(menu.children) @template(empty each.children?'menuitem':'menu')"
+						style="overflow:auto;" />
+				</menu>
+			</template>
+
+			<template name="menuitem" var="chil">
+				<menu label="@bind(chil.name)" width="400px"
+					style="padding-top:2px; padding-bottom:5px; font-size:small; font-weight:bold;"
+					image="/images/plus.png">
+					<menupopup sclass="mymenupopup" />
+				</menu>
+			</template>
+
+		</menupopup>
+
+		<!-- POPUP EMPLOYEE DIRECTORY -->
+
+		<popup id="employeePopup" width="500px">
+			<div height="200px"
+				style="overflow-y:auto; overflow-x:hidden">
+				<hlayout style="margin:10px" width="475px">
+					<div style="padding:5px;">
+						<label style="font-weight:bold">
+							Employee Name
+						</label>
+					</div>
+					<div>
+						<textbox placeholder="Search...."
+							value="@bind(bc.keywords)" width="275px"
+							onOK="@command('search')" />
+					</div>
+					<div align="right">
+						<button label="Search"
+							onClick="@command('search')"
+							style="background:#e74c3c; color: white; padding:5px">
+						</button>
+					</div>
+				</hlayout>
+
+				<forEach items="@load(bc.listKaryawan)">
+					<hlayout width="400"
+						style="margin-right:20px; margin-left:20px; margin-top:5px; border:1px solid black; padding:10px;">
+						<div>
+							<image src="/images/profile.png"
+								width="50px" height="50px" style="margin-right:5px;" />
+						</div>
+						<vlayout style="margin-top:2px">
+							<label
+								style="font-size:10px; font-weight:bold"
+								value="${each.firstName }">
+							</label>
+							<label style=" font-size:10px;"
+								value="${each.positionCode }">
+							</label>
+							<label style="font-size:10px;"
+								value="${each.birthDate }">
+							</label>
+						</vlayout>
+					</hlayout>
+				</forEach>
+			</div>
+		</popup>
+
+		<!-- POPUP SOP -->
+
+		<menupopup id="sopPopup" top="0px" left="0px"
+			style="margin-top: 5px; display: block;
+					 	border: none; overflow:auto;">
+			<menu label="SO Marketing"
+				style="padding-top:2px; padding-bottom:5px; font-size:small; font-weight:bold;"
+				image="/images/plus.png" width="200px">
+				<menupopup>
+					<menuitem label="SO"
+						style="padding-top:2px; padding-bottom:5px; font-size:small; font-weight:bold;"
+						image="/images/plus.png" width="100px">
+					</menuitem>
+					<menu label="MI"
+						style="padding-top:2px; padding-bottom:5px; font-size:small; font-weight:bold;"
+						image="/images/plus.png" width="100px">
+						<menupopup>
+							<menuitem label="MI Pengajuan Perpanjangan"
+								style="padding-top:2px; padding-bottom:5px; font-size:small; font-weight:bold;"
+								image="/images/plus.png" width="275px">
+							</menuitem>
+						</menupopup>
+					</menu>
+				</menupopup>
+			</menu>
+			<menuitem label="SO Operation"
+				style="padding-top:2px; padding-bottom:5px; font-size:small; font-weight:bold;"
+				image="/images/plus.png" width="200px">
+			</menuitem>
+		</menupopup>
+
+
+	</hlayout>
+
+</zk>

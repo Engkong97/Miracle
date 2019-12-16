@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "mfincore.cookieName",
+    "type": "java.lang.String",
+    "description": "A description for 'mfincore.cookieName'"
+  },
+  {
+    "name": "mfincore.homepage",
+    "type": "java.lang.String",
+    "description": "A description for 'mfincore.homepage'"
+  }
+]}

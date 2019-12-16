@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TITLE PAGE -->
+<?page id="index" title="${labels.applicationName}"?>
+<?page title="Administrator" contentType="text/html;charset=UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
+
+	<div width="100%" height="100%" apply="org.zkoss.bind.BindComposer"
+		viewModel="@id('vs') @init('com.mandala.intranet.controller.AdminController')">
+		<hlayout>
+			<div width="200px">
+				<listbox model="@load(vs.listMenu)">
+					<listhead>
+						<listheader label="ADMINISTRATOR"></listheader>
+					</listhead>
+					<template name="model">
+						<listitem>
+							<listcell
+								onClick="@command('selectMenu', data = each)"
+								label="@bind(each.menuTitle)">
+							</listcell>
+						</listitem>
+					</template>
+				</listbox>
+				<image src="/images/exit.png" 
+				style="margin-left:35%; margin-top:2%;" width="50px" onClick="@command('logout')"></image>
+			</div>
+			<include mode="instant" id="mainInclude"
+				self="@define(mainContent)" src="@load(vs.url)" />
+		</hlayout>
+
+	</div>
+
+
+</zk>

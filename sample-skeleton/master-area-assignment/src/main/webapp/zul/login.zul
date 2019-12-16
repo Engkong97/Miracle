@@ -1,0 +1,72 @@
+<?page title="Login" contentType="text/html;charset=UTF-8"?>
+<!-- <?init class="com.mandala.intranet.controller.LoginCheckerVmd"?> -->
+<?link rel="stylesheet" type="text/css" href="/css/login-style.css" ?>
+
+<zk >
+	<borderlayout self="@define(content)" apply="org.zkoss.bind.BindComposer"
+		viewModel="@id('vm') @init('com.mantabs.collection.master.area_assignment.viewmodel.LoginVmd')"
+		sclass="login-container">
+		<west sclass="login-frosted"></west>
+		<center sclass="login-content-wrapper">
+			<div sclass="flex-column">
+				<div sclass="logo-section">
+					<image src="/images/logo_mandala.png" width="100px">
+					</image>
+				</div>
+				<label sclass="h1">
+					LOGIN
+				</label>
+				<div sclass="login-form">
+					<div sclass="login-form-wrapper">
+						<div sclass="form-item">
+							<div>
+								<image src="/images/ico_username.png" width="15px">
+								</image>
+								<label>
+									Username
+								</label>
+							</div>
+							<textbox id="text" value="@bind(vm.username)" placeholder="User ID" />
+						</div>
+						<div sclass="form-item">
+							<div>
+								<image src="/images/ico_password.png" width="15px">
+								</image>
+								<label>
+									Password
+								</label>
+							</div>
+							<textbox id="pwd" value="@bind(vm.password)" type="password"
+								onOK="@command('login')" placeholder="Password" />
+						</div>
+						<div sclass="form-item">
+							<checkbox onCheck='pwd.setType(self.isChecked() ? "text" : "password")' />
+							<label value="Show Password" />
+						</div>
+						<div visible="@load(vm.captchaVisible)">
+							<script type="text/javascript" src='https://www.google.com/recaptcha/api.js'
+								defer="true" />
+							<script>
+								<![CDATA[ function afterValidate(response){ 
+									zkbind.$('$recaptcha').command('verify',
+									{"response":response}); } 
+								]]>
+
+							</script>
+							<!-- <h:div class="g-recaptcha" data-sitekey="6LdSfYgUAAAAAF4b2UtL4M38hqEs8TXXMIRDgZPm"></h:div> -->
+							<!-- <h:div class="g-recaptcha" data-sitekey="6Lf034gUAAAAALmUbOlmeu5AgWfv58LWvmmE1Xme"></h:div> -->
+							<!-- <h:div class="g-recaptcha" id="recaptcha"
+								data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+								data-callback="afterValidate" command="@load(command)" /> -->
+						</div>
+						<div sclass="form-item btn-login-wrapper">
+							<a class="btn-login" disabled="@load(vm.disabled)" onClick="@command('login')">
+								LOGIN
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</center>
+	</borderlayout>
+</zk>

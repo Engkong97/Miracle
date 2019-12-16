@@ -1,0 +1,74 @@
+<?page title="Center" contentType="text/html;charset=UTF-8"?>
+<zk xmlns:n="native">
+	<hlayout style="border:none; padding-bottom:10px;"
+		apply="org.zkoss.bind.BindComposer" sclass="sb"
+		viewModel="@id('c') @init('com.mantabs.collection.master.area_assignment.viewmodel.CenterVmd')">
+		<vlayout width="750px" height="630px"
+			style="margin-right=50px; border:1px solid black;">
+			<separator />
+			<div height="125px">
+				<vlayout>
+					<label
+						style="margin-left:10px; font-weight:bold;">
+						News
+					</label>
+					<include src="/home/news.zul"></include>
+				</vlayout>
+			</div>
+			<separator bar="true" spacing="20px" />
+			<div height="125px">
+				<label style="margin-left:10px; font-weight:bold;">
+					Staffing
+				</label>
+			</div>
+			<separator bar="true" spacing="20px" />
+			<div height="250px">
+				<label style="margin-left:10px; font-weight:bold;">
+					Article
+				</label>
+				<include src="/home/article.zul"></include>
+			</div>
+		</vlayout>
+		<vlayout width="240px">
+			<div height="175px" style="border:1px solid black;">
+				<n:div id="div_chart_spot_USD" align="center" />
+			</div>
+
+			<div height="450px"
+				style="border:1px solid black; overflow-y:scroll;">
+				<vlayout>
+					<separator></separator>
+					<label
+						style="margin:10px; font-weight:bold; font-size:15px;">
+						Employee HBD
+					</label>
+
+					<forEach items="@load(c.employee)">
+						<hlayout
+							style="margin:5px; border:1px solid black; padding:10px;"
+							width="210px">
+							<div>
+								<image src="/images/profile.png"
+									width="50px" height="50px" style="margin-right:5px;" />
+							</div>
+							<vlayout style="margin-top:2px"
+								width="125px">
+								<label
+									style="font-size:10px; font-weight:bold"
+									value="${each.firstName}">
+								</label>
+								<label style=" font-size:10px;"
+									value="${each.positionCode }">
+								</label>
+								<label style="font-size:10px;"
+									value="${each.birthDate }">
+								</label>
+							</vlayout>
+						</hlayout>
+					</forEach>
+				</vlayout>
+			</div>
+		</vlayout>
+	</hlayout>
+</zk>
+

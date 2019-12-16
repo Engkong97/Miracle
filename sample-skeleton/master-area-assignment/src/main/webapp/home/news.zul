@@ -1,0 +1,15 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<hlayout style="margin:1%;">
+		<div align="center">
+			<image src="/images/bg_mandala.jpg" width="200px"
+				height="100px" />
+		</div>
+		<vlayout width="525px" style="margin-left:10px;">
+			<label style="font-weight:bold; font-size:20px" value="Artikel Menajamkan Agile yang sudah ada di Nilai Mandala"></label>
+			<label style="font-size:10px;" maxlength="250" 
+					value="Setelah sebelumnya kami membagikan artikel mengenai bagaimana caranya memulai project agar sukses, kali ini kami ingin sharing mengenai prinsip utama Agile, yang ternyata, percaya ataupun tidak, memiliki persamaan yang begitu erat dengan prinsip H2D yang kita teladani" >
+			</label>
+			</vlayout>
+	</hlayout>
+</zk>

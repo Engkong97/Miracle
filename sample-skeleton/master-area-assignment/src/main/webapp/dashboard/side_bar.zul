@@ -1,0 +1,56 @@
+<?page title="Intranet || PT. Mandala Multifinance, Tbk." contentType="text/html;charset=UTF-8"?>
+<!-- <?init class="com.mandala.intranet.controller.LoginCheckerVmd"?> -->
+<?link rel="stylesheet" type="text/css" href="/css/login-style.css" ?>
+
+<zk>
+	<vlayout style="margin:1%;" apply="org.zkoss.bind.BindComposer"
+		sclass="sb"
+		viewModel="@id('sb') @init('com.mantabs.collection.master.area_assignment.viewmodel.SideBarController')">
+		
+		<div align="left" style="margin-top:5px; margin-left:5px">
+			<label style="font-size:15px; font-weight:bold;">
+				Employee
+			</label>
+		</div>
+		<div align="center" style="margin-top:10px">
+			<image src="/images/profile.png" width="100px"
+				height="100px" />
+		</div>
+
+		<div align="center" style="margin-top:5px">
+			<label style="font-size:15px; font-weight:bold;">
+				Profile
+			</label>
+		</div>
+
+		<div align="center" style="margin-top:5px">
+			<label
+				style="font-size:20px; font-weight:bold; border-bottom:1px solid #000;">
+				My Calendar
+			</label>
+		</div>
+
+		<div align="center" style="margin-top:5px; margin-left:3px">
+			<calendar id="cal"/>
+		</div>
+
+		<div align="left" width="10px" style="margin-top:10px; margin-left:5px">
+			<label
+				style="font-size:20px; font-weight:bold; border-bottom:1px solid #000;">
+				Project
+			</label>
+		</div>
+
+		<div align="left" style="margin-top:5px; margin-left:5px">
+			<label style="font-size:12px; font-weight:bold;">
+				Mantabs
+			</label>
+		</div>
+
+		<div align="left" style="margin-left:5px">
+			<label style="font-size:12px; font-weight:bold;">
+				Website Mandala
+			</label>
+		</div>
+	</vlayout>
+</zk>

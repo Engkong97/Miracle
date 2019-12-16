@@ -1,0 +1,158 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+div.button {
+	padding: 10px 25px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button1 {
+	background-color: #008CBA;
+
+}
+
+div.admin-container {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
+
+div.admin-frosted {
+	display: inline-block;
+	width: 0% !important;
+	height: 100% !important;
+	background: inherit;
+	border: none;
+	z-index: 7;
+}
+
+div.admin-container>div {
+	background: inherit;
+}
+
+div.sidebar .h1 {
+	color: white;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+hr.new1 {
+	border-top: 1px solid white;
+}
+
+/* The side navigation menu */
+.sidebar {
+	margin: 0;
+	padding-top: 15px;
+	width: 200px;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	display: block;
+}
+
+/* Sidebar links */
+.sidebar a {
+	display: block;
+	color: white;
+	padding-left: 15px;
+	padding-top: 15px;
+	text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+/* Links on mouse-over */
+.sidebar
+ 
+a
+:hover
+:not
+ 
+(
+.active
+ 
+)
+{
+background-color
+:
+ 
+#EE5253
+;
+
+	
+color
+:
+ 
+white
+;
+
+
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+	margin-left: 200px;
+	padding: 1px 16px;
+	height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {
+		float: left;
+	}
+	div.content {
+		margin-left: 0;
+	}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+}
+
+div.admin-form {
+	background-color: white;
+	border-radius: 5px;
+	width: 400px;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+
+div.admin-form .h1 {
+	color: black;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+div.admin-form-wrapper {
+	width: 100%;
+}
+
+div.form-item {
+	margin-bottom: 15px;
+}
