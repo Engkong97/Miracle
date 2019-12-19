@@ -12,7 +12,7 @@ import com.mantabs.collection.master.area_assignment.dao.MKaryawanDao;
 import com.mantabs.collection.master.area_assignment.dto.MCabangDto;
 import com.mantabs.collection.master.area_assignment.dto.MJabatanDto;
 import com.mantabs.collection.master.area_assignment.dto.MKaryawanDto;
-import com.mantabs.collection.master.area_assignment.helper.Base;
+import com.mantabs.collection.master.area_assignment.helper.HelperBase;
 import com.mantabs.collection.master.area_assignment.service.MKaryawanSvc;
 import com.mantabs.entity.master.MCabang;
 import com.mantabs.entity.master.MKaryawan;
@@ -49,7 +49,7 @@ public class MKaryawanSvcImpl implements MKaryawanSvc {
 			dto.setMiddleName(karyawan.getMiddleName());
 			dto.setLastName(karyawan.getLastName());
 			dto.setPositionCode(karyawan.getJabatan());
-			dto.setBirthDate(Base.dateFormat(karyawan.getBirthDate()));
+			dto.setBirthDate(HelperBase.dateFormat(karyawan.getBirthDate()));
 			mKaryawanDto.add(dto);
 		}
 		return mKaryawanDto;
@@ -66,7 +66,7 @@ public class MKaryawanSvcImpl implements MKaryawanSvc {
 			dto.setMiddleName(karyawan.getMiddleName());
 			dto.setLastName(karyawan.getLastName());
 			dto.setPositionCode(karyawan.getJabatan());
-			dto.setBirthDate(Base.dateFormat(karyawan.getBirthDate()));
+			dto.setBirthDate(HelperBase.dateFormat(karyawan.getBirthDate()));
 			mKaryawanDtos.add(dto);
 		}
 		return mKaryawanDtos;

@@ -22,8 +22,8 @@ public class MCabangSvcImpl implements MCabangSvc{
 	MCabangDao mCabangDao;
 	
 	@Override
-	public List<MCabangDto> findAll(String idWilayah, String idRegional) {
-		List<MCabang> mCabang = mCabangDao.findAllCabang(idWilayah, idRegional);
+	public List<MCabangDto> findAll(String idRegional) {
+		List<MCabang> mCabang = mCabangDao.findAllCabang(idRegional);
 		List<MCabangDto> mCabangDto = new ArrayList<>();
 		for (MCabang cabang : mCabang) {
 			MCabangDto dto = new MCabangDto();

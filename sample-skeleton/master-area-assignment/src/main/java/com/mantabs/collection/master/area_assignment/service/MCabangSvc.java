@@ -6,5 +6,5 @@ import com.mantabs.collection.master.area_assignment.dto.MCabangDto;
 import com.mantabs.collection.master.area_assignment.dto.MRegionalDto;
 
 public interface MCabangSvc {
-	public List<MCabangDto> findAll(String idWilayah, String idRegional);
+	public List<MCabangDto> findAll(String idRegional);
 }

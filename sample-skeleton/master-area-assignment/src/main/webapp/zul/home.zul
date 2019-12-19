@@ -1,17 +1,17 @@
 <?page title="Miracle" contentType="text/html;charset=UTF-8"?>
 <zk>
-	<borderlayout hflex="1" vflex="1">
+	<borderlayout height="750px" viewModel="@id('index') @init('com.mantabs.collection.master.area_assignment.viewmodel.HomeViewModel')" style="overflow:scroll;">
 		<north border="none" sclass="head">
 			<include src="/dashboard/banner.zul"></include>
 		</north>
-		 <west size="20%" sclass="aside" autoscroll="hidden"
+		 <west size="20%" sclass="aside" autoscroll ="hidden"
 			style="border:1px solid black;">
-			<include src="/dashboard/side_bar.zul"></include>
+			<include src="@load(index.urlSideBar)"></include>
 		</west>
-		<center id="mainContent" autoscroll="true"
+		<center id="mainContent" autoscroll="hidden"
 			style="margin-left:5px; border:none;">
-			<include src="/dashboard/center.zul"></include>
-		</center> 
+			<include self="@define(mainContent)" src="@load(index.url)"></include>
+		</center>
 	</borderlayout>
 	
 </zk>

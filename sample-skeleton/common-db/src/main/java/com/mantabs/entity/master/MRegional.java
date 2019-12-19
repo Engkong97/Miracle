@@ -21,7 +21,7 @@ public class MRegional {
 	@Column(name="pic_reg_mkt")
 	private String picRegMkt;
 	
-	@Column(name="pic_reg_opt")
+	@Column(name="pic_reg_opr")
 	private String picRegOpt;
 	
 	@Column(name="status")

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\Miracle\Miracle\sample-skeleton"/>
 			<item value="E:\BARU\sample-skeleton"/>
 		</list>
 		<list key="projectNameTemplate">

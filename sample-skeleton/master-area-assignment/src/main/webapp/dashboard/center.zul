@@ -3,7 +3,7 @@
 	<hlayout style="border:none; padding-bottom:10px;"
 		apply="org.zkoss.bind.BindComposer" sclass="sb"
 		viewModel="@id('c') @init('com.mantabs.collection.master.area_assignment.viewmodel.CenterVmd')">
-		<vlayout width="750px" height="630px"
+		<vlayout width="750px" height="665px"
 			style="margin-right=50px; border:1px solid black;">
 			<separator />
 			<div height="125px">
@@ -30,11 +30,11 @@
 			</div>
 		</vlayout>
 		<vlayout width="240px">
-			<div height="175px" style="border:1px solid black;">
+			<div height="200px" style="border:1px solid black;">
 				<n:div id="div_chart_spot_USD" align="center" />
 			</div>
 
-			<div height="450px"
+			<div height="460px"
 				style="border:1px solid black; overflow-y:scroll;">
 				<vlayout>
 					<separator></separator>

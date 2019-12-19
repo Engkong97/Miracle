@@ -1,11 +1,15 @@
 package com.mantabs.collection.master.area_assignment.viewmodel;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+
+import javax.annotation.RegEx;
 
 import org.zkoss.bind.annotation.Command;
 import org.zkoss.bind.annotation.Init;
 import org.zkoss.bind.annotation.NotifyChange;
+import org.zkoss.zk.ui.Executions;
 import org.zkoss.zk.ui.select.annotation.VariableResolver;
 import org.zkoss.zk.ui.select.annotation.WireVariable;
 import org.zkoss.zk.ui.util.Clients;
@@ -44,29 +48,31 @@ public class BannerController {
 	private List<MKaryawanDto> listKaryawan = new ArrayList<MKaryawanDto>();
 
 	private List<MenuItem> nodes;
+	private List<String> idWilayah;	
 
 	private static List<MenuItem> menus = new ArrayList<MenuItem>();
 
 	private String keywords = "";
+	public static String flag = "home";
 
 	@Init
 	@NotifyChange({ "nodes", "menus" })
 	public void init() {
 		menus.clear();
 		loadDataWilayah();
-
+//		loadDataBranch();
 		{
 
-			for (MWilayahDto jod : listWilayah) {
+			for (MWilayahDto wil : listWilayah) {
 				MenuItem m1_lv1 = new MenuItem();
-				m1_lv1.setName(jod.getNamaWilayah());
+				m1_lv1.setName(wil.getNamaWilayah());
 				m1_lv1.setLevel(1);
-				for (MRegionalDto reg : loadDataRegional(jod.getIdWilayah())) {
+				for (MRegionalDto reg : loadDataRegional(wil.getIdWilayah())) {
 					MenuItem m2_lvl2 = new MenuItem();
 					m2_lvl2.setName(reg.getNamaRegional());
 					m2_lvl2.setLevel(2);
 					m1_lv1.addChild(m2_lvl2);
-					for (MCabangDto cabang : loadDataCabangl(reg.getIdWilayah(), reg.getIdRegional())) {
+					for (MCabangDto cabang : loadDataCabangl(reg.getIdRegional())) {
 						MenuItem m3_lvl3 = new MenuItem();
 						m3_lvl3.setName(cabang.getNamaCabang());
 						m3_lvl3.setLevel(3);
@@ -87,7 +93,20 @@ public class BannerController {
 		nodes = new ArrayList<MenuItem>();
 		nodes = getAllMenus();
 		System.out.println("NODES : " + listWilayah.size());
-		System.out.println("NODES : " + loadDataWilayah().size());
+//		System.out.println("NODES : " + loadDataWilayah().size());
+	}
+	
+	public void loadDataBranch() {
+		listWilayah.clear();
+		listWilayah = mWilayahSvc.findAll();
+		for (int i = 0; i < listWilayah.size(); i++) {
+			for(MRegionalDto reg : mRegionalSvc.findAll(listWilayah.get(i).getIdWilayah())) {
+				MRegionalDto regDto = new MRegionalDto();
+				regDto.setIdRegional(regDto.getIdRegional());
+				regDto.setNamaRegional(reg.getNamaRegional());
+				listRegional.add(regDto);
+			}
+		}
 	}
 
 	public List<MWilayahDto> loadDataWilayah() {
@@ -102,9 +121,9 @@ public class BannerController {
 		return listRegional;
 	}
 
-	public List<MCabangDto> loadDataCabangl(String idWilayah, String idRegional) {
+	public List<MCabangDto> loadDataCabangl(String idRegional) {
 		listCabang.clear();
-		listCabang = mCabangSvc.findAll(idWilayah, idRegional);
+		listCabang = mCabangSvc.findAll(idRegional);
 		return listCabang;
 	}
 
@@ -117,12 +136,28 @@ public class BannerController {
 	@Command("search")
 	@NotifyChange({ "keywords", "listKaryawan", })
 	public void search() {
-//		if (keywords.contentEquals("")) {
-//			Clients.alert("Data Tidak Ditemukan", "Warning", "");
-//		} else {
-//			listKaryawan.clear();
-//			listKaryawan = mKaryawanSvc.searchEmployee("%" + keywords + "%");
-//		}
+		if (keywords.contentEquals("")) {
+			Clients.alert("Data Tidak Ditemukan", "Warning", "");
+		} else {
+			listKaryawan.clear();
+			listKaryawan = mKaryawanSvc.searchEmployee("%" + keywords + "%");
+		}
+	}
+	
+	@Command("academy")
+	@NotifyChange({"flag"})
+	public void academy() {
+		flag = "academy";
+		System.out.println(flag);
+		Executions.sendRedirect("");
+	}
+	
+	@Command("home")
+	@NotifyChange({"flag"})
+	public void home() {
+		flag = "home";
+		System.out.println(flag);
+		Executions.sendRedirect("");
 	}
 
 	@Command("clearData")
@@ -203,6 +238,7 @@ public class BannerController {
 
 	public String getKeywords() {
 		return keywords;
+		
 	}
 
 	public void setKeywords(String keywords) {

@@ -1,0 +1,64 @@
+<?page title="Intranet || PT. Mandala Multifinance, Tbk." contentType="text/html;charset=UTF-8"?>
+<!-- <?init class="com.mandala.intranet.controller.LoginCheckerVmd"?> -->
+<?link rel="stylesheet" type="text/css" href="/css/login-style.css" ?>
+
+<zk>
+	<vlayout style="margin:1%;"
+		sclass="sb"
+		viewModel="@id('asd') @init('com.mantabs.collection.master.area_assignment.viewmodel.SideBarAcademyVmd')">
+		<div align="left" style="margin-top:5px; margin-left:5px">
+			<label style="font-size:15px; font-weight:bold;">
+				Employee
+			</label>
+		</div>
+		<div align="center" style="margin-top:10px">
+			<image src="/images/profile.png" width="100px"
+				height="100px" />
+		</div>
+
+		<div align="center" style="margin-top:5px">
+			<label style="font-size:15px; font-weight:bold;">
+				Profile
+			</label>
+		</div>
+
+		<div align="center" style="margin-top:5px">
+			<label
+				style="font-size:20px; font-weight:bold; border-bottom:1px solid #000;">
+				My Calendar
+			</label>
+		</div>
+
+		<div align="center" style="margin-top:5px; margin-left:3px">
+			<calendar id="cal"/>
+		</div>
+
+		<div height="210px" align="center "
+				style="border:1px solid black; overflow-y:scroll;">
+				<vlayout>
+					<separator></separator>
+					<label
+						style="margin:10px; font-weight:bold; font-size:15px;">
+						Event Schedule
+					</label>
+
+					<forEach items="@load(asd.event)">
+						<hlayout
+							style="margin:5px; border:1px solid black; padding:10px;"
+							width="210px">
+							<vlayout style="margin-top:2px"
+								width="175px">
+								<label
+									style="font-size:12px; font-weight:bold"
+									value="${each.judul}">
+								</label>
+								<label style=" font-size:10px;"
+									value="${each.tglEvent }">
+								</label>
+							</vlayout>
+						</hlayout>
+					</forEach>
+				</vlayout>
+			</div>
+	</vlayout>
+</zk>

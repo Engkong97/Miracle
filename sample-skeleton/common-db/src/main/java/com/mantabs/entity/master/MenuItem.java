@@ -8,6 +8,7 @@ public class MenuItem {
 	private String name;
 	private List<MenuItem> children;
 	private int level;
+	private String idUnique;
 
 //	public MenuItem(String name,int level) {
 //		this.name = name;
@@ -52,5 +53,15 @@ public class MenuItem {
 	public void setLevel(int level) {
 		this.level = level;
 	}
+
+	public String getIdUnique() {
+		return idUnique;
+	}
+
+	public void setIdUnique(String idUnique) {
+		this.idUnique = idUnique;
+	}
+	
+	
 	
 }
