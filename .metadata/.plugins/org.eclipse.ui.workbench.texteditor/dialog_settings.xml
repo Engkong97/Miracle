@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="over"/>
+		<item key="selection" value="article"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="article"/>
+			<item value="artike"/>
+			<item value="berita"/>
+			<item value="regional :"/>
+			<item value="regional"/>
+			<item value="MMF_MST_CABANG"/>
+			<item value="mmf_mst_cabang"/>
 			<item value="over"/>
 			<item value="hbd"/>
 			<item value="URL"/>
@@ -16,20 +23,13 @@
 			<item value="test"/>
 			<item value="TEST"/>
 			<item value="loadDataJabatan"/>
-			<item value="hlayout"/>
-			<item value="jawa"/>
-			<item value="menu"/>
-			<item value="listWilayah"/>
-			<item value="nodes"/>
-			<item value="menuPopUp"/>
-			<item value="menuPopUp,"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1321"/>
-		<item key="DIALOG_Y_ORIGIN" value="185"/>
+		<item key="DIALOG_X_ORIGIN" value="909"/>
+		<item key="DIALOG_Y_ORIGIN" value="144"/>
 		<item key="DIALOG_WIDTH" value="385"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

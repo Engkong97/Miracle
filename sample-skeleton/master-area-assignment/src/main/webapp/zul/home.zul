@@ -1,6 +1,6 @@
 <?page title="Miracle" contentType="text/html;charset=UTF-8"?>
 <zk>
-	<borderlayout height="750px" viewModel="@id('index') @init('com.mantabs.collection.master.area_assignment.viewmodel.HomeViewModel')" style="overflow:scroll;">
+	<borderlayout height="750px" viewModel="@id('index') @init('com.mantabs.collection.master.area_assignment.viewmodel.HomeViewModel')" >
 		<north border="none" sclass="head">
 			<include src="/dashboard/banner.zul"></include>
 		</north>

@@ -3,15 +3,12 @@
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.LoginSvc"/>
 <fullyQualifiedTypeName name="com.mandala.intranet.service.MWilayahSvc"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dao.MWilayahDao"/>
-<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MWilayahSvc"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.UserMenu"/>
 <fullyQualifiedTypeName name="com.mantabs.entity.master.MWilayah"/>
-<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MWilayahDto"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dao.MRegionalDao"/>
 <fullyQualifiedTypeName name="com.mantabs.entity.master.MRegional"/>
 <fullyQualifiedTypeName name="org.hibernate.mapping.Array"/>
-<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MRegionalDto"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MRegionalSvc"/>
 <fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dao.MCabangDao"/>
@@ -24,7 +21,6 @@
 <fullyQualifiedTypeName name="org.zkoss.zk.ui.select.annotation.WireVariable"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MJabatanSvc"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MJabatanDto"/>
-<fullyQualifiedTypeName name="com.mantabs.entity.master.MenuItem"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dao.MKaryawanDao"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MKaryawanSvc"/>
@@ -40,10 +36,15 @@
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.helper.HelperBase"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MEventSvc"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MEventDto"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.impl.MKaryawanSvcImpl"/>
 <fullyQualifiedTypeName name="com.mantabs.entity.master.MKaryawan"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MWilayahSvc"/>
+<fullyQualifiedTypeName name="com.mantabs.entity.master.MenuItem"/>
+<fullyQualifiedTypeName name="javax.annotation.RegEx"/>
+<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MWilayahDto"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MRegionalDto"/>
 </qualifiedTypeNameHistroy>

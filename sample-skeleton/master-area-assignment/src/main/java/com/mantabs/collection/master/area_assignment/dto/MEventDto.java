@@ -13,7 +13,7 @@ public class MEventDto {
 	
 	private String Isi;
 	
-	private String PathImg;
+	private String pathImg;
 	
 	private String Type;
 	
@@ -46,11 +46,11 @@ public class MEventDto {
 	}
 
 	public String getPathImg() {
-		return PathImg;
+		return pathImg;
 	}
 
 	public void setPathImg(String pathImg) {
-		PathImg = pathImg;
+		this.pathImg = pathImg;
 	}
 
 	public String getType() {
@@ -75,7 +75,6 @@ public class MEventDto {
 
 	public void setTglEvent(String tglEvent) {
 		this.tglEvent = tglEvent;
-	}	
-	
+	}
 	
 }

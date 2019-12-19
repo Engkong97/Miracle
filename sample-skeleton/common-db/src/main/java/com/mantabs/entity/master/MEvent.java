@@ -143,8 +143,6 @@ public class MEvent {
 	public void setModDate(String modDate) {
 		this.modDate = modDate;
 	}
-	
-	
-	
+
 	
 }

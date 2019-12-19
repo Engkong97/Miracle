@@ -35,4 +35,17 @@ public class MEventSvcImpl implements MEventSvc{
 		return eventDto;
 	}
 
+	@Override
+	public List<MEventDto> listImgEvent() {
+		List<MEvent> mEvent = mEventDao.listImgEvent();
+		List<MEventDto> eventDto = new ArrayList<>();
+		for(MEvent event : mEvent) {
+			MEventDto dto = new MEventDto();
+			dto.setJudul(event.getJudul());
+			dto.setPathImg(event.getPathImg());
+			eventDto.add(dto);
+		}
+		return eventDto;
+	}
+
 }

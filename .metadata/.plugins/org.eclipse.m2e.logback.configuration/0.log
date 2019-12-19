@@ -4914,3 +4914,699 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle.oj
 2019-12-17 16:02:09,873 [Worker-183: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-12-17 16:02:09,873 [Worker-183: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-17 16:02:09,873 [Worker-183: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:12:21,754 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-12-19 07:13:05,515 [Worker-3: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier  to /common-db/target/classes
+2019-12-19 07:13:05,519 [Worker-3: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2019-12-19 07:13:07,488 [Worker-3: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier  to /common-db/target/classes
+2019-12-19 07:13:07,490 [Worker-3: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2019-12-19 07:13:15,053 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:13:15,054 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:13:15,106 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:13:15,108 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:13:15,110 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:13:18,478 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:13:18,482 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:13:18,486 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:13:18,488 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:13:18,489 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:29:26,906 [Worker-1: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 07:29:26,909 [Worker-1: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 07:31:48,100 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2019-12-19 07:31:48,189 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2019-12-19 07:31:49,370 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:31:49,370 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\main\resources
+2019-12-19 07:31:49,370 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\main\resources
+2019-12-19 07:31:49,372 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:31:49,373 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\test\resources
+2019-12-19 07:31:51,098 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:31:51,098 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\main\resources
+2019-12-19 07:31:51,098 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\main\resources
+2019-12-19 07:31:51,101 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:31:51,101 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\test\resources
+2019-12-19 07:31:57,272 [Worker-32: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 07:31:57,272 [Worker-32: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 07:39:40,400 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:39:40,400 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:39:40,403 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:39:40,405 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:39:40,405 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:40:10,716 [Worker-36: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 07:40:10,716 [Worker-36: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 07:40:39,401 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:40:39,402 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:40:39,405 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:40:39,407 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:40:39,407 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:40:52,110 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:40:52,110 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:40:52,112 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:40:52,114 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:40:52,114 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:41:05,512 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:41:05,512 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:41:05,514 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:41:05,516 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:41:05,516 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:41:37,252 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:41:37,253 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:41:37,255 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:41:37,256 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:41:37,256 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:41:48,281 [Worker-36: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 07:41:48,282 [Worker-36: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 07:46:27,618 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:46:27,619 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:46:27,622 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:46:27,626 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:46:27,627 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:51:53,963 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:51:53,964 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:51:53,964 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:51:53,966 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:51:53,966 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:52:12,012 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:52:12,012 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:52:12,015 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:52:12,018 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:52:12,018 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:52:13,120 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:52:13,120 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:52:13,122 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:52:13,135 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:52:13,135 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:52:17,355 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:52:17,355 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:52:17,358 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:52:17,360 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:52:17,360 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:53:09,656 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:53:09,656 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:53:09,658 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:53:09,660 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:53:09,660 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:53:10,802 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:53:10,803 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 07:53:10,805 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:53:10,807 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:53:10,807 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:53:17,443 [Worker-45: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 07:53:17,443 [Worker-45: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 07:53:46,114 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:53:46,115 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:53:46,115 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:53:46,118 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:53:46,119 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:54:51,162 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:54:51,163 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:54:51,163 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:54:51,167 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:54:51,168 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 07:56:29,733 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:56:29,733 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:56:29,734 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 07:56:29,736 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 07:56:29,737 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:21:17,449 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:21:17,449 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:21:17,449 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:21:17,451 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:21:17,451 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:22:35,087 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:22:35,087 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:22:35,089 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:22:35,091 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:22:35,091 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:22:43,073 [Worker-50: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:22:43,073 [Worker-50: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:24:32,877 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:24:32,877 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:24:32,879 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:24:32,881 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:24:32,881 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:24:37,777 [Worker-34: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:24:37,777 [Worker-34: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:26:52,669 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:26:52,669 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:26:52,672 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:26:52,673 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:26:52,674 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:26:59,408 [Worker-55: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:26:59,408 [Worker-55: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:28:17,235 [Worker-57: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:28:17,235 [Worker-57: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:28:17,237 [Worker-57: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:28:17,239 [Worker-57: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:28:17,239 [Worker-57: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:28:17,402 [Worker-57: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:28:17,402 [Worker-57: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:28:49,287 [Worker-52: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:28:49,288 [Worker-52: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:30:12,602 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:30:12,603 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:30:12,605 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:30:12,606 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:30:12,606 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:30:19,452 [Worker-59: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:30:19,452 [Worker-59: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:30:24,588 [Worker-55: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:30:24,588 [Worker-55: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:33:23,164 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:33:23,164 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:33:23,167 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:33:23,169 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:33:23,169 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:33:28,221 [Worker-56: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:33:28,221 [Worker-56: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:55:04,034 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:55:04,034 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:55:04,036 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:55:04,038 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:55:04,038 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:55:12,442 [Worker-60: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:55:12,442 [Worker-60: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 08:59:37,143 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:59:37,143 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:59:37,145 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:59:37,147 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:59:37,147 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:59:38,227 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:59:38,228 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:59:38,232 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:59:38,234 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:59:38,235 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:59:48,471 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:59:48,471 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:59:48,473 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:59:48,474 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:59:48,474 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:59:49,613 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:59:49,614 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 08:59:49,616 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 08:59:49,617 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 08:59:49,617 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 08:59:55,836 [Worker-63: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 08:59:55,836 [Worker-63: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:01:44,026 [Worker-66: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:01:44,026 [Worker-66: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:03:03,346 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:03:03,346 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:03:03,348 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:03:03,349 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:03:03,350 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:03:11,469 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:03:11,469 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:03:11,471 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:03:11,472 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:03:11,472 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:03:24,279 [Worker-74: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:03:24,279 [Worker-74: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:04:31,478 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:04:31,478 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:04:31,480 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:04:31,483 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:04:31,483 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:04:38,313 [Worker-74: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:04:38,313 [Worker-74: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:05:59,797 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:05:59,798 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:05:59,800 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:05:59,801 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:05:59,801 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:06:16,694 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:06:16,695 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:06:16,698 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:06:16,700 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:06:16,700 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:06:27,360 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:06:27,361 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:06:27,361 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:06:27,365 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:06:27,366 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:06:31,906 [Worker-72: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:06:31,906 [Worker-72: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:06:36,757 [Worker-66: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:06:36,758 [Worker-66: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:07:05,255 [Worker-78: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:07:05,255 [Worker-78: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:07:34,490 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:07:34,491 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:07:34,492 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:07:34,495 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:07:34,496 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:08:55,864 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:08:55,864 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:08:55,866 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:08:55,868 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:08:55,868 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:08:56,943 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:08:56,944 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:08:56,946 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:08:56,948 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:08:56,948 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:09:07,157 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:09:07,158 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:09:07,160 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:09:07,162 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:09:07,162 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:09:08,303 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:09:08,303 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:09:08,306 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:09:08,308 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:09:08,309 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:09:12,420 [Worker-73: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:09:12,420 [Worker-73: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:09:37,690 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:09:37,691 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:09:37,692 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:09:37,694 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:09:37,694 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:09:57,427 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:09:57,427 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:09:57,427 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:09:57,429 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:09:57,429 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:10:00,184 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:10:00,184 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:10:00,186 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:10:00,188 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:10:00,188 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:10:03,440 [Worker-73: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:10:03,441 [Worker-73: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:10:29,231 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:10:29,231 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:10:29,231 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:10:29,232 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:10:29,232 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:11:27,712 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:11:27,712 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:11:27,715 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:11:27,716 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:11:27,716 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:11:38,672 [Worker-72: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:11:38,672 [Worker-72: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:14:35,357 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:14:35,357 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:14:35,359 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:14:35,360 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:14:35,360 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:14:43,768 [Worker-70: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:14:43,768 [Worker-70: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:17:25,930 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:17:25,930 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:17:25,932 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:17:25,933 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:17:25,933 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:18:07,014 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:18:07,014 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:18:07,015 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:18:07,019 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:18:07,019 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:18:23,702 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:18:23,703 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:18:23,703 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:18:23,705 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:18:23,705 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:18:32,964 [Worker-78: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:18:32,964 [Worker-78: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:19:05,460 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:19:05,461 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:19:05,461 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:19:05,464 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:19:05,464 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:19:24,055 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:19:24,055 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:19:24,057 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:19:24,059 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:19:24,059 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:19:50,217 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:19:50,217 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:19:50,219 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:19:50,220 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:19:50,220 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:45:26,631 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:45:26,631 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:45:26,634 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:45:26,636 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:45:26,636 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:45:35,860 [Worker-71: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:45:35,860 [Worker-71: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:53:49,706 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:53:49,706 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:53:49,708 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:53:49,709 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:53:49,709 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:53:55,645 [Worker-71: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:53:55,645 [Worker-71: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:55:31,100 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:55:31,101 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 09:55:31,104 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:55:31,105 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:55:31,105 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:55:52,725 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:55:52,725 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:55:52,725 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:55:52,727 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:55:52,727 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 09:56:02,879 [Worker-92: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 09:56:02,879 [Worker-92: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 09:56:53,224 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:56:53,224 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:56:53,224 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 09:56:53,226 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 09:56:53,227 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:02:17,320 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:02:17,320 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:02:17,322 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:02:17,323 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:02:17,323 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:02:25,972 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:02:25,972 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\main\resources
+2019-12-19 10:02:25,972 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\main\resources
+2019-12-19 10:02:25,973 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:02:25,973 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\common-db\src\test\resources
+2019-12-19 10:02:26,019 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:02:26,019 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:02:26,021 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:02:26,023 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:02:26,023 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:02:26,214 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 10:02:26,214 [Worker-97: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 10:04:54,359 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:04:54,359 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:04:54,361 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:04:54,362 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:04:54,362 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:05:04,046 [Worker-104: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 10:05:04,046 [Worker-104: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 10:08:57,769 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:08:57,770 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:08:57,772 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:08:57,774 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:08:57,774 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:08:58,842 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:08:58,843 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:08:58,847 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:08:58,850 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:08:58,850 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:09:06,820 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:09:06,821 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:09:06,823 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:09:06,825 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:09:06,825 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:09:07,960 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:09:07,960 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:09:07,964 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:09:07,967 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:09:07,967 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:09:10,673 [Worker-109: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 10:09:10,673 [Worker-109: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 10:10:51,824 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:10:51,825 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:10:51,826 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:10:51,828 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:10:51,828 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:14:24,447 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:14:24,447 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:14:24,449 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:14:24,450 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:14:24,450 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:14:28,849 [Worker-107: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 10:14:28,849 [Worker-107: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 10:15:10,863 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:15:10,863 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:15:10,865 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:15:10,867 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:15:10,867 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:15:26,431 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:15:26,431 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:15:26,433 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:15:26,434 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:15:26,434 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:16:01,624 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:16:01,625 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:16:01,626 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:16:01,627 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:16:01,627 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:16:07,191 [Worker-108: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 10:16:07,191 [Worker-108: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 10:16:58,405 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:16:58,405 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-12-19 10:16:58,407 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:16:58,408 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:16:58,408 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:17:17,997 [Worker-113: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 10:17:17,997 [Worker-113: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 10:19:31,179 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:19:31,180 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:19:31,180 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:19:31,181 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:19:31,181 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:19:46,130 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:19:46,131 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:19:46,131 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:19:46,132 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:19:46,132 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:29:08,694 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:29:08,694 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:29:08,694 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:29:08,696 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:29:08,696 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:29:16,250 [Worker-124: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 10:29:16,251 [Worker-124: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 10:30:54,018 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:30:54,019 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:30:54,019 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:30:54,021 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:30:54,021 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:33:18,513 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:33:18,514 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:33:18,514 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:33:18,516 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:33:18,517 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:33:30,503 [Worker-127: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-db: com.mantabs:common-db:0.0.1-SNAPSHOT with classifier null to /common-db/target/classes
+2019-12-19 10:33:30,503 [Worker-127: Launching master-area-assignment - WebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.mantabs:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2019-12-19 10:35:38,809 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:35:38,809 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:35:38,809 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:35:38,811 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:35:38,811 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:36:02,555 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:36:02,555 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:36:02,555 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:36:02,558 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:36:02,558 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:37:34,488 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:37:34,488 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:37:34,489 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:37:34,491 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:37:34,491 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:37:47,590 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:37:47,591 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:37:47,591 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:37:47,592 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:37:47,592 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:37:58,308 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:37:58,309 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:37:58,309 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:37:58,312 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:37:58,313 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:37:59,554 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:37:59,555 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:37:59,555 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:37:59,557 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:37:59,557 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:38:54,857 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:38:54,857 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:38:54,857 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:38:54,859 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:38:54,860 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:40:32,584 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:40:32,584 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:40:32,584 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:40:32,585 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:40:32,585 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:41:13,379 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:41:13,380 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:41:13,381 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:41:13,384 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:41:13,384 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:41:38,207 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:41:38,208 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:41:38,208 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:41:38,210 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:41:38,210 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:42:01,927 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:01,927 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:01,927 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:01,930 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:01,930 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:42:11,598 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:11,598 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:11,598 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:11,600 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:11,601 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:42:13,744 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:13,744 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:13,744 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:13,746 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:13,746 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:42:20,951 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:20,951 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:20,952 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:20,952 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:20,953 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:42:33,592 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:33,592 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:33,593 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:33,596 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:33,597 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:42:44,613 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:44,614 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:44,614 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:42:44,616 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:42:44,616 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:43:19,474 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:19,474 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:19,475 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:19,479 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:19,479 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:43:31,104 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:31,104 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:31,104 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:31,105 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:31,105 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:43:38,705 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:38,706 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:38,706 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:38,708 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:38,708 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:43:46,359 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:46,359 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:46,359 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:46,361 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:46,361 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:43:55,894 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:55,894 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:55,895 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:43:55,897 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:43:55,897 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:44:30,080 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:44:30,081 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:44:30,081 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:44:30,084 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:44:30,084 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:44:49,891 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:44:49,892 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:44:49,892 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:44:49,894 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:44:49,894 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:45:15,267 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:45:15,267 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:45:15,268 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:45:15,269 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:45:15,270 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:45:27,083 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:45:27,084 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:45:27,084 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:45:27,085 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:45:27,085 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:45:41,907 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:45:41,908 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:45:41,908 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:45:41,911 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:45:41,912 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:45:54,212 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:45:54,212 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:45:54,212 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:45:54,213 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:45:54,213 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:46:03,951 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:46:03,951 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:46:03,951 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:46:03,955 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:46:03,955 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 10:46:15,956 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:46:15,957 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:46:15,957 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 10:46:15,959 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:46:15,959 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:00:10,399 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:00:10,400 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:00:10,400 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:00:10,402 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:00:10,403 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:00:20,519 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:00:20,519 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:00:20,519 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:00:20,520 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:00:20,520 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:01:42,005 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:01:42,005 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:01:42,005 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:01:42,007 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:01:42,007 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:02:01,089 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:02:01,089 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:02:01,089 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:02:01,090 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:02:01,090 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:02:06,364 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:02:06,364 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:02:06,364 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:02:06,366 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:02:06,366 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:03:17,573 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:03:17,574 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:03:17,574 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:03:17,578 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:03:17,579 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:03:33,477 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:03:33,477 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:03:33,478 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:03:33,481 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:03:33,481 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:03:47,764 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:03:47,764 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:03:47,765 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:03:47,769 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:03:47,769 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:03:58,170 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:03:58,171 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:03:58,171 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:03:58,173 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:03:58,173 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:04:08,065 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:08,065 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:08,066 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:08,070 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:08,070 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:04:20,003 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:20,004 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:20,004 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:20,007 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:20,007 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:04:29,193 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:29,193 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:29,193 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:29,194 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:29,194 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:04:44,515 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:44,516 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:44,516 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:44,519 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:44,520 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:04:53,250 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:53,251 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:53,251 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:53,254 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:53,254 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:04:57,476 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:57,476 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:57,476 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:04:57,477 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:04:57,477 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources
+2019-12-19 11:05:06,459 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:05:06,460 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:05:06,460 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-19 11:05:06,463 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:05:06,463 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Miracle\Miracle\sample-skeleton\master-area-assignment\src\test\resources

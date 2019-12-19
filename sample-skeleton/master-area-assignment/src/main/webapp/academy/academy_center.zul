@@ -2,38 +2,32 @@
 <zk xmlns:n="native">
 	<hlayout style="border:none; padding-bottom:10px;"
 		apply="org.zkoss.bind.BindComposer" sclass="sb"
-		viewModel="@id('c') @init('com.mantabs.collection.master.area_assignment.viewmodel.CenterVmd')">
+		viewModel="@id('ac') @init('com.mantabs.collection.master.area_assignment.viewmodel.AcademyCenterVmd')">
 		<vlayout width="750px" height="665px"
 			style="margin-right=50px; border:1px solid black;">
 			<separator />
 			<div height="150px">
 				<hlayout>
-					<vlayout><include src="/academy/academy_news.zul"></include></vlayout>
+					<vlayout>
+						<include src="/academy/academy_news.zul"></include>
+					</vlayout>
 				</hlayout>
 			</div>
 			<separator bar="true" spacing="20px" />
-			<div height="120px">
+			<div height="150px">
 				<label style="margin-left:10px; font-weight:bold;">
 					Event
 				</label>
 				<zk>
-					<div height="600px" style="margin-left:140px;">
-						<fisheyebar id="fsb" style="position:absolute;"
-							attachEdge="top" itemWidth="80" itemHeight="80"
-							itemMaxHeight="160" itemMaxWidth="160">
-							<fisheye image="/images/logo_mandala.png"
-								label="Folder" onClick="alert(self.label)" />
-							<fisheye image="/images/logo_mandala.png"
-								label="Reading Glasses" onClick="alert(self.label)" />
-							<fisheye image="/images/logo_mandala.png"
-								label="Project" onClick="alert(self.label)" />
-							<fisheye image="/images/logo_mandala.png"
-								label="Email" onClick="alert(self.label)" />
-							<fisheye image="/images/logo_mandala.png"
-								label="Globe" onClick="alert(self.label)" />
-							<fisheye image="/images/logo_mandala.png"
-								label="Spyglass" onClick="alert(self.label)" />
-						</fisheyebar>
+					<div height="600px" style="margin-left:20px;">
+							<fisheyebar
+								style="position:absolute;" attachEdge="top" itemWidth="140"
+								itemHeight="125" itemMaxHeight="150" itemMaxWidth="200">
+								<forEach items="@load(ac.imgevent)">
+								<fisheye
+									image="${each.pathImg}" label="${each.judul}" />
+								</forEach>
+							</fisheyebar>
 					</div>
 				</zk>
 
@@ -48,7 +42,7 @@
 		</vlayout>
 		<vlayout width="240px">
 
-			<div height="665px"
+			<!-- <div height="665px"
 				style="border:1px solid black; overflow-y:scroll;">
 				<vlayout>
 					<separator></separator>
@@ -81,7 +75,7 @@
 						</hlayout>
 					</forEach>
 				</vlayout>
-			</div>
+			</div> -->
 		</vlayout>
 	</hlayout>
 </zk>
