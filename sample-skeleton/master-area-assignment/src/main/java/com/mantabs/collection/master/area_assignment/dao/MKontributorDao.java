@@ -5,13 +5,13 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.mantabs.entity.master.MEvent;
+import com.mantabs.entity.master.MKontributor;
 
-public interface MKontributorDao extends JpaRepository<MEvent, String>{
-	@Query( value = "select e.ID_EMPLOYEE, o.FIRST_NAME, o.LAST_NAME , j.NAMA_JABATAN " + 
-			"from MMF_EVENT e " + 
-			"left join MMF_STG_ORANGE o on e.ID_EMPLOYEE = o.EMPLOYEE_CODE " + 
-			"left join MMF_MST_JABATAN j on O.POSITION_CODE = J.ID_JABATAN", nativeQuery = true)
-	public List<MEvent> findKontributor();
+public interface MKontributorDao extends JpaRepository<MKontributor, String>{
+	@Query( value = "select mt.*, MMJ.NAMA_JABATAN, MSO.FIRST_NAME, MSO.LAST_NAME " + 
+			" from mmf_trainer mt " + 
+			" inner join mmf_stg_orange mso on mt.employee_code = mso.employee_code" + 
+			" inner join mmf_mst_jabatan mmj on MSO.POSITION_CODE = MMJ.ID_JABATAN ", nativeQuery = true)
+	public List<MKontributor> findKontributor();
 
 }

@@ -10,9 +10,11 @@ import org.springframework.stereotype.Service;
 
 import com.mantabs.collection.master.area_assignment.dao.MKontributorDao;
 import com.mantabs.collection.master.area_assignment.dto.MEventDto;
+import com.mantabs.collection.master.area_assignment.dto.MKontributorDto;
 import com.mantabs.collection.master.area_assignment.dto.MWilayahDto;
 import com.mantabs.collection.master.area_assignment.service.MKontributorSvc;
 import com.mantabs.entity.master.MEvent;
+import com.mantabs.entity.master.MKontributor;
 import com.mantabs.entity.master.MWilayah;
 
 @Service("mKontributorSvc")
@@ -22,18 +24,23 @@ public class MKontributorSvcImpl implements MKontributorSvc{
 	MKontributorDao mKontributorDao;
 	
 	@Override
-	public List<MEventDto> getKontributor() {
-		List<MEvent> mEvent = mKontributorDao.findKontributor();
-		List<MEventDto> mEventDto = new ArrayList<>();
-		for(MEvent event : mEvent) {
-			MEventDto dto = new MEventDto();
-			dto.setIdEmployee(event.getIdEmployee());
-//			dto.setFirstName(event.getFirstName());
-//			dto.setLastName(event.getLastName());
-//			dto.setJabatan(event.getNamaJabatan());
-			mEventDto.add(dto);
+	public List<MKontributorDto> getKontributor() {
+		List<MKontributor> mKontributor = mKontributorDao.findKontributor();
+		List<MKontributorDto> mKontributorDto = new ArrayList<>();
+		for(MKontributor kontributor : mKontributor) {
+			MKontributorDto dto = new MKontributorDto();
+			dto.setEmployeeCode(kontributor.getEmployeeCode());
+			if (kontributor.getLastName()== null) {
+				dto.setFirstName(kontributor.getFirstName()+ " " );
+				
+			} else {
+				dto.setFirstName(kontributor.getFirstName()+" " + kontributor.getLastName());
+			}
+			dto.setNamaJabatan(kontributor.getNamaJabatan());
+			
+			mKontributorDto.add(dto);
 		}
-		return mEventDto;
+		return mKontributorDto;
 	}
 
 }

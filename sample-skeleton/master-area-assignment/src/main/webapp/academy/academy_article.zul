@@ -10,16 +10,15 @@
 			</tabs>
 			<tabpanels>
 				<tabpanel width="100%" height="225px">
-					<label>Sport</label>
-					<iframe width="420" height="315"
-						style="margin-top:30px;"
-						src="https://www.youtube.com/embed/tgbNymZ7vqY">
+					
+					<iframe width="420" height="405"
+						style="margin-top:5px;margin-left:200px;"
+						src="https://www.youtube.com/embed/h-e1eHzuuWM">
 					</iframe>
 				</tabpanel>
 				<tabpanel width="100%" height="225px"
 					fulfill="tab2.onClick">
-					<label>Tips And Trick</label>
-					<!-- <include src="/admin/tipstrick_admin.zul" /> -->
+					<include src="/academy/academy_trainer.zul" />
 				</tabpanel>
 
 			</tabpanels>

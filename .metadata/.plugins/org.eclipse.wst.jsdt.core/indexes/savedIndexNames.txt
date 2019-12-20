@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 INDEX VERSION 1.4+E:\KERJAAN KANTOR\01. Project Intranet\Miracle\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 137500797.index
 3376079815.index
 2674746919.index
 2114721649.index
 2323960183.index
+=======
+INDEX VERSION 1.4+E:\REZA\01. KERJAAN KANTOR\04. INTRANET\Miracle\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1145623472.index
+2188638205.index
+1609215990.index
+990962998.index
+>>>>>>> b6c552f2cfdc2240643098447c6723fccd4e1564
 2830952490.index
+3457071365.index

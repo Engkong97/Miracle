@@ -2,7 +2,11 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+<<<<<<< HEAD
 			<item value="E:\KERJAAN KANTOR\01. Project Intranet\Miracle\sample-skeleton"/>
+=======
+			<item value="E:\REZA\01. KERJAAN KANTOR\04. INTRANET\Miracle"/>
+>>>>>>> b6c552f2cfdc2240643098447c6723fccd4e1564
 			<item value="E:\Miracle\Miracle\sample-skeleton"/>
 			<item value="E:\BARU\sample-skeleton"/>
 		</list>

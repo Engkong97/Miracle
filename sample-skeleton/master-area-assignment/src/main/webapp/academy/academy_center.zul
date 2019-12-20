@@ -33,7 +33,7 @@
 
 			</div>
 			<separator bar="true" spacing="20px" />
-			<div height="100px">
+			<div height="200px" width="100%">
 				<label style="margin-left:10px; font-weight:bold;">
 					Berita Terkini
 				</label>
@@ -42,9 +42,10 @@
 		</vlayout>
 		<vlayout width="240px">
 
-			<!-- <div height="665px"
+			<div height="665px"
 				style="border:1px solid black; overflow-y:scroll;">
 				<vlayout>
+<<<<<<< HEAD
 				<separator></separator>
 				<label
 				style="margin:10px; font-weight:bold; font-size:15px;">
@@ -76,6 +77,36 @@
 				</forEach>
 				</vlayout>
 				</div> -->
+=======
+					<separator></separator>
+					<label
+						style="margin:10px; font-weight:bold; font-size:15px;">
+						Kontributor
+					</label>
+
+					<forEach items="@load(ac.kontributor)">
+						<hlayout
+							style="margin:5px; border:1px solid black; padding:10px;"
+							width="210px">
+							<div>
+								<image src="/images/profile.png"
+									width="50px" height="50px" style="margin-right:5px;" />
+							</div>
+							<vlayout style="margin-top:2px"
+								width="125px">
+								<label
+									style="font-size:10px; font-weight:bold"
+									value="${each.firstName}">
+								</label>
+								<label style=" font-size:10px;"
+									value="${each.namaJabatan }">
+								</label>
+							</vlayout>
+						</hlayout>
+					</forEach>
+				</vlayout>
+			</div> 
+>>>>>>> b6c552f2cfdc2240643098447c6723fccd4e1564
 		</vlayout>
 	</hlayout>
 </zk>
