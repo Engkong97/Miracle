@@ -1,5 +1,54 @@
 <?page title="new page title" contentType="text/html;charset=UTF-8"?>
 <zk xmlns:n="native">
-
+    <hbox>
+        <hbox>
+            <button iconSclass="z-icon-arrow-circle-left" style="position:absolute;
+    margin-top: 60px; margin-left:2px;background-color: transparent;color:#c0392b;">
+                <attribute name="onClick"><![CDATA[
+                    image.setContent(new org.zkoss.image.AImage("t", 
+                        desktop.webApp.getResourceAsStream((odd = !odd) ? 
+                            "/images/logo_acc_horizontal.png" : 
+                            "/images/img_user.png")));              
+                ]]></attribute>
+            </button>
+                <button iconSclass="z-icon-arrow-circle-right" style="position:absolute;
+    margin-top: 60px; margin-left:695px;background-color: transparent; color:#c0392b;">
+                <attribute name="onClick"><![CDATA[
+                    image.setContent(new org.zkoss.image.AImage("t", 
+                        desktop.webApp.getResourceAsStream((odd = !odd) ? 
+                            "/images/logo_acc_horizontal.png" : 
+                            "/images/img_user.png")));              
+                ]]></attribute>
+                
+            </button>
+            <image id="image" src="/images/logo_mandala.png" width="728px" height="150px"/>
+        </hbox>
+     
+    </hbox>
+    <zscript><![CDATA[
+        import java.awt.*;
+        import java.awt.image.*;
+        import java.awt.geom.*;
+        boolean odd = false;
+        boolean odd1 = false;
+         
+        void update() {
+            BufferedImage bufferimg = newimg((odd1 = !odd1));
+            img.setContent(bufferimg);
+        }
+        BufferedImage newimg(boolean update) {
+            BufferedImage bi = new BufferedImage(150, 150, BufferedImage.TYPE_INT_RGB);
+            Graphics2D g2d = bi.createGraphics();
+            g2d.setStroke(new BasicStroke(5));
+            Line2D line = update ? new Line2D.Double(10, 10, 130, 130) : new Line2D.Double(10, 130, 130, 10);
+            Rectangle2D retangle = new Rectangle2D.Double(25, 25, 85, 85);
+            g2d.setColor(update ? Color.cyan : Color.RED);
+            g2d.draw(line);
+            g2d.setColor(update ? Color.yellow : Color.pink);
+            g2d.draw(retangle);
+            return bi;
+        }
+    ]]></zscript>
+	
 
 </zk>
