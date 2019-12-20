@@ -27,16 +27,12 @@
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MKaryawanDto"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="org.zkoss.bind.annotation.Init"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dao.MEventDao"/>
-<fullyQualifiedTypeName name="com.mantabs.entity.master.MEvent"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.viewmodel.BannerController"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.deser.Deserializers.Base"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.helper.Base"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.helper.HelperBase"/>
-<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MEventSvc"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MEventDto"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.impl.MKaryawanSvcImpl"/>
 <fullyQualifiedTypeName name="com.mantabs.entity.master.MKaryawan"/>
@@ -45,6 +41,13 @@
 <fullyQualifiedTypeName name="com.mantabs.entity.master.MenuItem"/>
 <fullyQualifiedTypeName name="javax.annotation.RegEx"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MWilayahDto"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MRegionalDto"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MKontributorSvc"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dao.MKontributorDao"/>
+<fullyQualifiedTypeName name="com.mantabs.entity.master.MEvent"/>
+<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.dto.MEventDto"/>
+<fullyQualifiedTypeName name="com.mantabs.collection.master.area_assignment.service.MEventSvc"/>
 </qualifiedTypeNameHistroy>

@@ -20,14 +20,14 @@
 				</label>
 				<zk>
 					<div height="600px" style="margin-left:20px;">
-							<fisheyebar
-								style="position:absolute;" attachEdge="top" itemWidth="140"
-								itemHeight="125" itemMaxHeight="150" itemMaxWidth="200">
-								<forEach items="@load(ac.imgevent)">
-								<fisheye
-									image="${each.pathImg}" label="${each.judul}" />
-								</forEach>
-							</fisheyebar>
+						<fisheyebar style="position:absolute;"
+							attachEdge="top" itemWidth="140" itemHeight="125"
+							itemMaxHeight="150" itemMaxWidth="200">
+							<forEach items="@load(ac.imgevent)">
+								<fisheye image="${each.pathImg}"
+									label="${each.judul}" />
+							</forEach>
+						</fisheyebar>
 					</div>
 				</zk>
 
@@ -45,37 +45,37 @@
 			<!-- <div height="665px"
 				style="border:1px solid black; overflow-y:scroll;">
 				<vlayout>
-					<separator></separator>
-					<label
-						style="margin:10px; font-weight:bold; font-size:15px;">
-						Kontributor
-					</label>
-
-					<forEach items="@load(c.employee)">
-						<hlayout
-							style="margin:5px; border:1px solid black; padding:10px;"
-							width="210px">
-							<div>
-								<image src="/images/profile.png"
-									width="50px" height="50px" style="margin-right:5px;" />
-							</div>
-							<vlayout style="margin-top:2px"
-								width="125px">
-								<label
-									style="font-size:10px; font-weight:bold"
-									value="${each.firstName}">
-								</label>
-								<label style=" font-size:10px;"
-									value="${each.positionCode }">
-								</label>
-								<label style="font-size:10px;"
-									value="${each.birthDate }">
-								</label>
-							</vlayout>
-						</hlayout>
-					</forEach>
+				<separator></separator>
+				<label
+				style="margin:10px; font-weight:bold; font-size:15px;">
+				Kontributor
+				</label>
+				
+				<forEach items="@load(c.employee)">
+				<hlayout
+				style="margin:5px; border:1px solid black; padding:10px;"
+				width="210px">
+				<div>
+				<image src="/images/profile.png"
+				width="50px" height="50px" style="margin-right:5px;" />
+				</div>
+				<vlayout style="margin-top:2px"
+				width="125px">
+				<label
+				style="font-size:10px; font-weight:bold"
+				value="${each.firstName}">
+				</label>
+				<label style=" font-size:10px;"
+				value="${each.positionCode }">
+				</label>
+				<label style="font-size:10px;"
+				value="${each.birthDate }">
+				</label>
 				</vlayout>
-			</div> -->
+				</hlayout>
+				</forEach>
+				</vlayout>
+				</div> -->
 		</vlayout>
 	</hlayout>
 </zk>
